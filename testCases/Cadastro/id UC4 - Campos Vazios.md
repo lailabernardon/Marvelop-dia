@@ -2,7 +2,7 @@
 
 ## Description
 
-Check login is successful with valid credentials
+Check login is successful with invalid credentials
 
 ### Precondition
 
@@ -19,7 +19,7 @@ Valid credentials registered
 
 ## Expected Result
 
-Home page must be showed
+Error message is showed
 
 This is how the tester determines if the test case is a “pass” or “fail”.
 

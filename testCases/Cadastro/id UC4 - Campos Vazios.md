@@ -11,10 +11,15 @@ N/A
 ## Test Steps
 
   Scenario: check login is successful with valid credentials
-    Given browser is open
+  
+    Given app is open
+    
     And user is on login page
+    
     When user enters <email> and <password>
+    
     And user clicks on login 
+    
     Then user is navigated to the home page
 
 ## Expected Result

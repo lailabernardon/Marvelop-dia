@@ -1,36 +1,12 @@
-# [id UC5] : Senha incorreta
+## Tabela de decisão
 
-## Description
+Para a criação de novos cenários de teste para a aplicação Marvelopédia, foi usada a técnica de testes combinatória de tabela de decisão, a técnica especifica as entradas e os possíveis resultados a partir das entradas e ações do usuário.
 
-Check register behaviour with invalid credentials
 
-### Precondition
-
-N/A
-
-## Test Steps
-
-  Scenario: check register behaviour with invalid credentials
-  
-    Given browser is open
-    
-    And user is on login page
-    
-    When user enters <email> and <password> and <passwordConfirmation>
-    
-    And user clicks on register 
-    
-    Then error message is showed
-
-    
-  Examples:
-  
-  | email | password | passwordConfirmation |
-  
-  | lailabernardon@outlook.com | 12345 | 12345 |
-
-## Expected Result
-
-Error message
-
-This is how the tester determines if the test case is a “pass” or “fail”.
+   Cadastro  | UC1 |    UC2  | UC3 | UC4 | UC5
+-----------|--------|----------------|-----------------|-----------------|-----------------
+Existe um usuário? |  Não  | Não    | Não  | Não | Não
+Senha válida? |  Sim   | Sim    | Sim | Não | Não 
+Confirmação de senha válida? |  Sim   | Sim   | Não | Não | Sim 
+Email válido? |  Sim   | Não   | Sim | Não | Sim 
+Sáida |  usuário cadastrado   | mensagem de erro   | mensagem de erro | mensagem de erro | mensagem de erro

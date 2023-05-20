@@ -1,7 +1,17 @@
-## Describe the bug
-A clear and concise description of what the bug is.
+## Centralizar testos e imagens
+Texto e imagens devem ser centralizadas
 
 ## To Reproduce
+
+Given app is open
+
+And user is on register page
+
+When user enters <email> and <password> and <passwordConfirmation>
+
+And user clicks on register 
+
+Then user is navigated to the home page
 
 ## Expected behavior
 A clear and concise description of what you expected to happen.

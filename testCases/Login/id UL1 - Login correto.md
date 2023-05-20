@@ -21,6 +21,15 @@ Valid credentials registered
     And user clicks on login 
     
     Then user is navigated to the home page
+
+    
+  Examples:
+  | email | password |
+ 
+  | laila.bernardon@outlook.com | 123456 |
+  
+  | lailabernardon13@gmail.com | Senha@ |
+  
     
 
 ## Expected Result

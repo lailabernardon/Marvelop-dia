@@ -1,4 +1,4 @@
-# [id UC1] : Login correto
+# [id UC1] : Cadastro correto
 
 ## Description
 
@@ -6,20 +6,32 @@ Check login is successful with valid credentials
 
 ### Precondition
 
-Valid credentials registered
+N/A
 
 ## Test Steps
 
-  Scenario: check login is successful with valid credentials
+  Scenario: check register is successful with valid credentials
+  
     Given browser is open
+    
     And user is on login page
-    When user enters <email> and <password>
-    And user clicks on login 
+    
+    When user enters <email> and <password> and <passwordConfirmation>
+    
+    And user clicks on register 
+    
     Then user is navigated to the home page
+
+    
+  Examples:
+  
+  | email | password | passwordConfirmation |
+  
+  | laila.bernardon@outlook.com | 123456 | 123456 |
 
 ## Expected Result
 
-Home page must be showed
+User registered
 
 This is how the tester determines if the test case is a “pass” or “fail”.
 

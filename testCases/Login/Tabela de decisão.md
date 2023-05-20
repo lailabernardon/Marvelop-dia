@@ -1,37 +1,10 @@
-# [id UL21] : Campos vazios
+## Tabela de decisão
 
-## Description
+Para a criação de novos cenários de teste para a aplicação Marvelopédia, foi usada a técnica de testes combinatória de tabela de decisão, a técnica especifica as entradas e os possíveis resultados a partir das entradas e ações do usuário.
 
-Check login is unsuccessful with empty credentials
 
-### Precondition
-
-Valid credentials registered
-
-## Test Steps
-
-  Scenario: check login behaviour with invalid credentials
-  
-    Given browser is open
-    
-    And user is on login page
-    
-    When user enters <email> and <password>
-    
-    And user clicks on login 
-    
-    Then user is navigated to the home page
-
-    
-  Examples:
-  
-  | username | password |
-  
-  |                            |        | 
-    
-
-## Expected Result
-
-Error message must be showed
-
-This is how the tester determines if the test case is a “pass” or “fail”.
+   Login    | UL1 |    UL2  | UL3 | UL4
+-----------|--------|----------------|-----------------|-----------------
+Existe um usuário? |  Sim  | Sim    | Sim  | Sim
+Senha válida? |  Sim   | Sim    | Não | Não
+Email válido? |  Sim   | Não    | Sim| Não

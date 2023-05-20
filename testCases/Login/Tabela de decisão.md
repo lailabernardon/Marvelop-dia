@@ -7,4 +7,5 @@ Para a criação de novos cenários de teste para a aplicação Marvelopédia, f
 -----------|--------|----------------|-----------------|-----------------
 Existe um usuário? |  Sim  | Sim    | Sim  | Sim
 Senha válida? |  Sim   | Sim    | Não | Não
-Email válido? |  Sim   | Não    | Sim| Não
+Email válido? |  Sim   | Não    | Sim | Não
+Saída         |  Home page é mostrada   | Mensagem de erro    | Mensagem de erro   |Mensagem de erro  

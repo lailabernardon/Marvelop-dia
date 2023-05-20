@@ -14,7 +14,7 @@ N/A
   
     Given app is open
     
-    And user is on login page
+    And user is on register page
     
     When user enters <email> and <password> and <passwordConfirmation>
     

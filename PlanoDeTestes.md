@@ -22,6 +22,26 @@ Escopo:
 - Hardware Galaxy S10
 
 
+Prioridade do problema
+O campo Prioridade permite que você especifique a importância de um problema. Este campo é obrigatório. As equipes geralmente têm critérios diferentes para determinar a importância de um problema. A tabela a seguir mostra uma maneira comum de priorizar problemas:
+
+Prioridade do problema	Descrição
+
+P0 Um problema que precisa ser resolvido imediatamente e com todos os recursos necessários. Esse problema causa uma interrupção total ou faz com que uma função crítica do produto fique indisponível para todos, sem nenhuma solução conhecida.
+
+P1 Um problema que precisa ser resolvido rapidamente. Esse problema impacta significativamente uma grande porcentagem de usuários. Se houver uma solução alternativa, ela é parcial ou muito dolorosa. O problema afeta uma função organizacional principal ou impede fundamentalmente outra equipe.
+
+P2 Um problema que precisa ser resolvido em uma escala razoável. Esse tipo de problema pode ser qualquer um dos seguintes: 
+
+1) Um problema que seria P0 ou P1, mas tem uma solução alternativa razoável, 
+2) Um problema que é importante para uma grande porcentagem dos usuários e está conectado às principais funções organizacionais, 
+3) Um problema que é um obstáculo para o trabalho de outras equipes e não tem uma solução razoável. P2 é especialmente relevante para problemas de primeiro uso ou tempo de instalação e é o nível de prioridade padrão.
+
+P3 Um problema que precisa ser resolvido quando possível. Esse problema é relevante para as funções organizacionais principais ou para o trabalho de outras equipes, mas não impede o progresso ou tem uma alternativa razoável.
+
+P4	Um problema que precisa ser resolvido. Esse problema não é relevante para as principais funções organizacionais ou para o trabalho de outras equipes, ou está relacionado apenas à atratividade ou ao prazer do sistema.
+Referência: https://developers.google.com/issue-tracker/concepts/issues?hl=pt-br#priority
+
 ## 2 - Requisitos a Testar
 
 ### Casos de uso:

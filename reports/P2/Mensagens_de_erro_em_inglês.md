@@ -21,8 +21,7 @@ Then a alert in portuguese is showed
 P2
 
 ## Screenshots/Video
-If applicable, add screenshots/video to help explain your problem.
-Remember to mark the area in the application thats impacted.
+https://github.com/lailabernardon/Marvelop-dia/blob/main/reports/P2/Screenshot_20230520-195803_Marvelopdia.jpg
 
 ## Mobile/Tablet
 - Marvelopédia Version 0.0.1

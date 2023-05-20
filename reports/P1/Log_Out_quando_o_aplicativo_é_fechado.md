@@ -1,5 +1,5 @@
-## Describe the bug
-Quando o suário fecha o aplicativo, o login do usuário é finalizado
+## [Log Out quando o aplicativo é fechado]
+Quando o usuário fecha o aplicativo, o login do usuário é finalizado
 
 ## To Reproduce
 

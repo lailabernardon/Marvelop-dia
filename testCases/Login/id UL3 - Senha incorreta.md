@@ -12,7 +12,7 @@ Valid credentials registered
 
   Scenario: check login behaviour with invalid credentials
   
-    Given browser is open
+    Given app is open
     
     And user is on login page
     

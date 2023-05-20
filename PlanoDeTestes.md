@@ -28,10 +28,10 @@ Escopo:
 
 Identificador do caso de uso | Login
 -----------------------------|---------------------
-id UC1                       |       Login correto
-id UC2                       |       Email incorreto
-id UC3                       |       Senha incorreta
-id UC4                       |       Campos vazios
+id UL1                       |       Login correto
+id UL2                       |       Email incorreto
+id UL3                       |       Senha incorreta
+id UL4                       |       Campos vazios
 
 
 Identificador do caso de uso | Cadastro
@@ -46,15 +46,15 @@ id UC5                       |       Confirmação de senha incorreto
 
 Identificador do requisito   |  Login
 -----------------------------|---------------------
-id req1                      |      Usabilidade
-id req2                      |      Segurança
-id req3                      |      Tempo
+id reqL1                      |      Usabilidade
+id reqL2                      |      Segurança
+id reqL3                      |      Tempo
 
 Identificador do requisito   |  Cadastro
 -----------------------------|---------------------
-id req1                      |      Usabilidade
-id req2                      |      Segurança
-id req3                      |      Tempo
+id reqC1                      |      Usabilidade
+id reqC2                      |      Segurança
+id reqC3                      |      Tempo
 
 ## 3 - Tipos de teste
 

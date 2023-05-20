@@ -6,7 +6,7 @@ Check login is successful with invalid credentials
 
 ### Precondition
 
-Valid credentials registered
+N/A
 
 ## Test Steps
 

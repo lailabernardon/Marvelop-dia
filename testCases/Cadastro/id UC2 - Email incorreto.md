@@ -1,25 +1,37 @@
-# [id UC1] : Login correto
+# [id UC1] : Email incorreto
 
 ## Description
 
-Check login is successful with valid credentials
+check register behaviour with invalid credentials
 
 ### Precondition
 
-Valid credentials registered
+N/A
 
 ## Test Steps
 
-  Scenario: check login is successful with valid credentials
+  Scenario: check register behaviour with invalid credentials
+  
     Given browser is open
+    
     And user is on login page
-    When user enters <email> and <password>
-    And user clicks on login 
-    Then user is navigated to the home page
+    
+    When user enters <email> and <password> and <passwordConfirmation>
+    
+    And user clicks on register 
+    
+    Then error message is showed
+
+    
+  Examples:
+  
+  | email | password | passwordConfirmation |
+  
+  | lailabernardon@outlook.com | 123456 | 123456 |
 
 ## Expected Result
 
-Home page must be showed
+Error message
 
 This is how the tester determines if the test case is a “pass” or “fail”.
 

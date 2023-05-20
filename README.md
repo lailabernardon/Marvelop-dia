@@ -8,8 +8,8 @@
 
    Data    | Versão |    Descrição   | Autor(a)
 -----------|--------|----------------|-----------------
-19/05/2023 |  1.0   | 0.0.1          | Laila Bernardon
-
+19/05/2023 |  1.0   | Criação da Introdução e escopo    | Laila Bernardon
+20/05/2023 |  1.0   | Criação e planejamento dos testes e cronograma    | Laila Bernardon
 
 ## 1 - Introdução
 
@@ -33,24 +33,37 @@ id UC2                       |       Email incorreto
 id UC3                       |       Senha incorreta
 id UC4                       |       Campos vazios
 
+
+Identificador do caso de uso | Cadastro
+-----------------------------|---------------------
+id UC1                       |       Cadastro correto
+id UC2                       |       Email incorreto
+id UC3                       |       Senha incorreta
+id UC4                       |       Campos vazios
+id UC5                       |       Confirmação de senha incorreto
+
 ### Requisitos não-funcionais:
 
-Identificador do requisito   |  
+Identificador do requisito   |  Login
 -----------------------------|---------------------
-id req1                      |      nome req1
-id req2                      |      nome req2
+id req1                      |      Usabilidade
+id req2                      |      Segurança
+id req3                      |      Tempo
 
+Identificador do requisito   |  Cadastro
+-----------------------------|---------------------
+id req1                      |      Usabilidade
+id req2                      |      Segurança
+id req3                      |      Tempo
 
 ## 3 - Tipos de teste
 
-Esta seção deve conter os tipos de testes escolhidos para cada iteração do projeto.
-Pode-se definir inicialmente apenas os tipos de testes que serão usadas na próxima iteração, mas é possível também já registrar eventuais tipos de teste que se espera utilizar nas demais iterações. 
-Com base no guia de testes, indique os tipos de testes que melhor se adéquam aos requisitos, tipo da aplicação e seus recursos disponíveis e, caso necessário complemente ou forneça mais detalhes da técnica e dos critérios de completude sugeridos no guia para cada tipo de teste indicado.
+Nesta seção contém os tipos de testes escolhidos para cada iteração do projeto.
+Definido inicialmente apenas os tipos de testes que serão usadas na release em questão. 
+Com base no guia de testes, os tipos de testes que melhor se adéquam aos requisitos, tipo da aplicação e seus recursos disponíveis:
 
 - Teste de interface de usuário;
 - Teste de performance;
-- Teste de carga;
-- Teste de stress;
 - Teste de segurança e controle de acesso;
 - Teste de instalação;
 - Entre outros.
@@ -68,7 +81,7 @@ Se possível usar teste automatizado.
             Objetivo
         </th>
         <th colspan="4">
-            descreva aqui o objetivo
+            Validar a função de Login
         </th>
     </tr>
     <tr>
@@ -104,7 +117,7 @@ Se possível usar teste automatizado.
             Abordagem do teste
         </th>
         <th colspan="2">
-            Caixa branca (x)
+            Caixa branca ( )
         </th>
         <th colspan="2">
             Caixa preta (x)
@@ -115,7 +128,67 @@ Se possível usar teste automatizado.
             Responsável(is)
         </th>
         <th colspan="4">
-            Programador(es) ou equipe de testes
+            Laila Bernardon
+        </th>
+    </tr>
+</table>
+<br/>
+
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            Validar a função de Cadastro
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            (x) manual
+        </th>
+        <th colspan="2">
+            (x) automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração ( )
+        </th>
+        <th>
+            Sistema ( )
+        </th>
+        <th>
+            Unidade (x)
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca ( )
+        </th>
+        <th colspan="2">
+            Caixa preta (x)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Laila Bernardon
         </th>
     </tr>
 </table>
@@ -134,7 +207,7 @@ Se possível usar teste automatizado.
             Objetivo
         </th>
         <th colspan="4">
-            Verificar se dados são mantidos após súbito desligamento do programa .
+            Verificar se dados de cadastro são mantidos após súbito desligamento do programa 
         </th>
     </tr>
     <tr>
@@ -181,11 +254,72 @@ Se possível usar teste automatizado.
             Responsável(is)
         </th>
         <th colspan="4">
-            Programador(es) ou equipe de testes
+            Laila Bernardon
         </th>
     </tr>
 </table>
 <br/>
+
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            Verificar se Login é mantido após súbito desligamento do programa 
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            (x) manual
+        </th>
+        <th colspan="2">
+            (x) automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração ( )
+        </th>
+        <th>
+            Sistema (x)
+        </th>
+        <th>
+            Unidade ( )
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca ( )
+        </th>
+        <th colspan="2">
+            Caixa preta (x)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Laila Bernardon 
+        </th>
+    </tr>
+</table>
+<br/>
+
 
 ### 3.3 - Integração dos Componentes
 
@@ -200,7 +334,7 @@ Se possível usar teste automatizado.
             Objetivo
         </th>
         <th colspan="4">
-            descreva aqui o objetivo
+            Verificar se as classes e métodos da função de Login fazem a integração entre elas com ações em sequência 
         </th>
     </tr>
     <tr>
@@ -247,7 +381,67 @@ Se possível usar teste automatizado.
             Responsável(is)
         </th>
         <th colspan="4">
-            Programador(es) ou equipe de testes
+            Laila Bernardon
+        </th>
+    </tr>
+</table>
+<br/>
+
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            Verificar se as classes e métodos da função de cadastro fazem a integração entre elas com ações em sequência 
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            (x) manual
+        </th>
+        <th colspan="2">
+            (x) automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração (x)
+        </th>
+        <th>
+            Sistema ( )
+        </th>
+        <th>
+            Unidade ( )
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca (x)
+        </th>
+        <th colspan="2">
+            Caixa preta (x)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Laila Bernardon
         </th>
     </tr>
 </table>
@@ -266,7 +460,7 @@ Se possível usar teste automatizado.
             Objetivo
         </th>
         <th colspan="4">
-            descreva aqui o objetivo
+            Verficiar se o tempo de resposta de Login são aceitáveis
         </th>
     </tr>
     <tr>
@@ -313,16 +507,75 @@ Se possível usar teste automatizado.
             Responsável(is)
         </th>
         <th colspan="4">
-            Programador(es) ou equipe de testes
+            Laila Bernardon
         </th>
     </tr>
 </table>
 <br/>
 
-### 3.5 - Animação
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            Verficiar se o tempo de resposta de Cadastro são aceitáveis
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            ( ) manual
+        </th>
+        <th colspan="2">
+            ( ) automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração ( )
+        </th>
+        <th>
+            Sistema ( )
+        </th>
+        <th>
+            Unidade ( )
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca ( )
+        </th>
+        <th colspan="2">
+            Caixa preta ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Laila Bernardon
+        </th>
+    </tr>
+</table>
+<br/>
 
-Para teste de funcionalidade (para games, principalmente, mas não somente).
-Aqui deve-se verificar se as animações existentes no programa são disparadas quando devem e se seguem uma sequência lógica.
+### 3.5 - Feedbacks
+
+Aqui deve-se verificar se os feedbacks existentes no programa são disparados quando devem.
 Se possível usar teste automatizado.
 
 <br/>
@@ -332,7 +585,7 @@ Se possível usar teste automatizado.
             Objetivo
         </th>
         <th colspan="4">
-            descreva aqui o objetivo
+            Verificar se feedback de Cadastro são disparados quando necessário e com clareza
         </th>
     </tr>
     <tr>
@@ -379,33 +632,97 @@ Se possível usar teste automatizado.
             Responsável(is)
         </th>
         <th colspan="4">
-            Programador(es) ou equipe de testes
+            Laila Bernardon
         </th>
     </tr>
 </table>
 <br/>
 
-### 3.6 - Efeitos Sonoros
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            Verificar se feedback de Login são disparados quando necessário e com clareza
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            ( ) manual
+        </th>
+        <th colspan="2">
+            ( ) automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração ( )
+        </th>
+        <th>
+            Sistema ( )
+        </th>
+        <th>
+            Unidade ( )
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca ( )
+        </th>
+        <th colspan="2">
+            Caixa preta ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Laila Bernardon
+        </th>
+    </tr>
+</table>
+<br/>
+
+
 
 
 ## 4 - Recursos
 
-Esta seção deve descrever os recursos humanos, de ambiente de teste (hardware e software) e de ferramentas de automatização de testes necessários para execução dos testes que devem ser descritos nas subseções que seguem.
+Esta seção descreve os recursos humanos, de ambiente de teste (hardware e software) e de ferramentas de automatização de testes necessários para execução dos testes que devem ser descritos nas subseções que seguem.
 
 ### 4.1 - Ambiente de teste - Software e Hardware
 
-Descreva aqui o hardware e sua configuração, e o software. Por exemplo, o sistema operacional, browsers, servidor web, etc.
+- Marvelopédia Version 0.0.1
+- Android Version 9 
+- Hardware Galaxy S10
+- Git Bash
+- Git hub
+
 ### 4.2 - Ferramenta de teste
 
-Descreva aqui as ferramentas específicas de teste usadas no projeto.
-
+Cucumber
 
 ## 5 - Cronograma
 
 Tipo de teste      | Duração | data de início | data de término
 -------------------|---------|----------------|-----------------
-planejar teste     |         | dd/mm/aaaa     | dd/mm/aaaa
-projetar teste     |         | dd/mm/aaaa     | dd/mm/aaaa
-implementar teste  |         | dd/mm/aaaa     | dd/mm/aaaa
-executar teste     |         | dd/mm/aaaa     | dd/mm/aaaa
-avaliar teste      |         | dd/mm/aaaa     | dd/mm/aaaa
+planejar teste     |    3h     | 20/05/2023     | 20/05/2023 
+projetar teste     |    3h    | 20/05/2023     | 20/05/2023 
+implementar teste  |    3h     | 20/05/2023     | 20/05/2023
+executar teste     |    3h     | 21/05/2023     | 21/05/2023
+avaliar teste      |    3h     | 21/05/2023     | 21/05/2023

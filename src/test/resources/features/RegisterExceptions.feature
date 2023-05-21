@@ -2,10 +2,10 @@ Feature: Test Register functionality
 
   Scenario: check register behaviour with invalid credentials
     Given browser is open
-    And user is on login page
+    And user is on register page
     When user enters <email> and <password> and <passwordConfirmation>
     And user clicks on register 
-    Then user is navigated to the home page
+    Then error message is showed
 
     
   Examples:

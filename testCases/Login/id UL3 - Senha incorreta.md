@@ -20,7 +20,7 @@ Valid credentials registered
     
     And user clicks on login 
     
-    Then user is navigated to the home page
+    Then error message is showed
 
     
   Examples:

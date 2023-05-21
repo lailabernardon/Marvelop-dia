@@ -20,7 +20,7 @@ N/A
     
     And user clicks on register
     
-    Then user is navigated to the home page
+    Then error message is showed
 
 ## Expected Result
 

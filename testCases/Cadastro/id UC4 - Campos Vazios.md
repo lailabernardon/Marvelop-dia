@@ -2,7 +2,7 @@
 
 ## Description
 
-Check login is successful with invalid credentials
+Check register behaviour with invalid credentials
 
 ### Precondition
 
@@ -18,7 +18,7 @@ N/A
     
     When user enters <email> and <password>
     
-    And user clicks on login 
+    And user clicks on register
     
     Then user is navigated to the home page
 

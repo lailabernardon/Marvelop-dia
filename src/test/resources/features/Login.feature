@@ -10,6 +10,6 @@ Feature: Test Login functionality
     
   Examples:
   | email | password |
-  | Laila Bernardon | 12345 |
-  | Ele | 12345 |
+  | laila.bernardon@outlook.com | 123456 |
+  | lailabernardon13@gmail.com | Senha@ |
   

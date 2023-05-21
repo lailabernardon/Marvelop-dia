@@ -732,6 +732,11 @@ Esta seção descreve os recursos humanos, de ambiente de teste (hardware e soft
 - Hardware Galaxy S10
 - Git Bash
 - Git hub
+- selenium-java 4.9.0
+- java-client 8.3.0
+- AppiumDemoProject 0.0.1-SNAPSHOT
+- Eclipse
+- Android Studio
 
 ### 4.2 - Ferramenta de teste
 

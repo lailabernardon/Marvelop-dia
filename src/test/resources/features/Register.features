@@ -11,4 +11,4 @@ Feature: Test Register functionality
   Examples:
   | email | password | passwordConfirmation |
   | laila.bernardon@outlook.com | 123456 | 123456 |
-  
+  | lailabernardon13@gmail.com | Senha@ | Senha@ |

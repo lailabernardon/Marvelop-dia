@@ -27,9 +27,13 @@ Scenario: Invalid "Security Code" entered
     
   Examples:
   | Card Number |	Cardholder | Expiry Date	 | Security Code 
+  
   | 1234567890123456|  Laila Bernardon       	| 12/2024	| 12	| 
+  
   | 9876543210987654	|  Laila Bernardon       	| 10/2025	| 1234	| 
+  
   | ABCDEFGHIJKLMNOP	|  Laila Bernardon      	| 12/2018	| 99	| 
+  
   
     
 

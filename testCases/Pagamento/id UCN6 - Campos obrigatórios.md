@@ -25,9 +25,13 @@ Scenario: Required fields left blank
     
   Examples:
   | Card Number |	Cardholder | Expiry Date	 | Security Code 
+  
   | 1234567890123456|  Laila Bernardon       	| 12/2024	| 	| 
+  
   |                	|  Laila Bernardon       	| 10/2025	| 123	| 
+  
   | ABCDEFGHIJKLMNOP	|  Laila Bernardon      |     	  | 991	| 
+  
   | ABCDEFGHIJKLMNOP	|                       | 10/2020 | 991	| 
     
 

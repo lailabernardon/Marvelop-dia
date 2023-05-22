@@ -27,9 +27,13 @@ Scenario: Expired "Expiry Date" entered
     
   Examples:
   | Card Number |	Cardholder | Expiry Date	 | Security Code 
+  
   | 1234567890123456|  Laila Bernardon       	| 12/2023	| 123	| 
+  
   | 9876543210987654	|  Laila Bernardon       	| 10/2020	| 123	| 
-  | ABCDEFGHIJKLMNOP	|  Laila Bernardon      	| 12/2019	| 123	| 
+  
+  | ABCDEFGHIJKLMNOP	|  Laila Bernardon      	| 12/2019	| 123	|
+  
   
     
 

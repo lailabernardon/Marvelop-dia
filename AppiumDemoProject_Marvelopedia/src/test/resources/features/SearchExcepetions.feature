@@ -1,5 +1,4 @@
-Feature: 
-Comic Book Search
+Feature: Comic Book Search
 
 Scenario: Invalid search with invalid data type
 

@@ -10,6 +10,8 @@
 -----------|--------|----------------|-----------------
 19/05/2023 |  1.0   | Criação da Introdução e escopo    | Laila Bernardon
 20/05/2023 |  1.0   | Criação e planejamento dos testes e cronograma    | Laila Bernardon
+21/05/2023 |  1.0   | Criação dos casos de testes e setup    | Laila Bernardon
+22/05/2023 |  1.0   | Criação e planejamento dos testes de pesquisa e carrinho    | Laila Bernardon
 
 ## 1 - Introdução
 
@@ -40,6 +42,7 @@ P2 Um problema que precisa ser resolvido em uma escala razoável. Esse tipo de p
 P3 Um problema que precisa ser resolvido quando possível. Esse problema é relevante para as funções organizacionais principais ou para o trabalho de outras equipes, mas não impede o progresso ou tem uma alternativa razoável.
 
 P4	Um problema que precisa ser resolvido. Esse problema não é relevante para as principais funções organizacionais ou para o trabalho de outras equipes, ou está relacionado apenas à atratividade ou ao prazer do sistema.
+
 Referência: https://developers.google.com/issue-tracker/concepts/issues?hl=pt-br#priority
 
 ## 2 - Requisitos a Testar
@@ -62,6 +65,14 @@ id UC3                       |       Senha incorreta
 id UC4                       |       Campos vazios
 id UC5                       |       Confirmação de senha incorreto
 
+Identificador do caso de uso | Pesquisa
+-----------------------------|---------------------
+id UP1                       |       Pesquisa válida
+id UP2                       |       Pesquisa vazio
+id UP3                       |       Nome inexistente
+id UP4                       |       Tamanho minimo não atingido
+id UP5                       |       Tipo de dado inválido
+
 ### Requisitos não-funcionais:
 
 Identificador do requisito   |  Login
@@ -75,6 +86,12 @@ Identificador do requisito   |  Cadastro
 id reqC1                      |      Usabilidade
 id reqC2                      |      Segurança
 id reqC3                      |      Tempo
+
+Identificador do requisito   |  Pesquisa
+-----------------------------|---------------------
+id reqP1                      |      Usabilidade
+id reqP2                      |      Desempenho
+id reqP3                      |      Tempo
 
 ## 3 - Tipos de teste
 
@@ -162,6 +179,66 @@ Se possível usar teste automatizado.
         </th>
         <th colspan="4">
             Validar a função de Cadastro
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            (x) manual
+        </th>
+        <th colspan="2">
+            (x) automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração ( )
+        </th>
+        <th>
+            Sistema ( )
+        </th>
+        <th>
+            Unidade (x)
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca ( )
+        </th>
+        <th colspan="2">
+            Caixa preta (x)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Laila Bernardon
+        </th>
+    </tr>
+</table>
+<br/>
+
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            Validar a função de Pesquisa
         </th>
     </tr>
     <tr>
@@ -340,6 +417,65 @@ Se possível usar teste automatizado.
 </table>
 <br/>
 
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            Verificar se histórico de pesquisa é mantido  
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            (x) manual
+        </th>
+        <th colspan="2">
+            (x) automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração ( )
+        </th>
+        <th>
+            Sistema (x)
+        </th>
+        <th>
+            Unidade ( )
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca ( )
+        </th>
+        <th colspan="2">
+            Caixa preta (x)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Laila Bernardon 
+        </th>
+    </tr>
+</table>
+<br/>
 
 ### 3.3 - Integração dos Componentes
 
@@ -467,6 +603,67 @@ Se possível usar teste automatizado.
 </table>
 <br/>
 
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            Verificar se as classes e métodos da função de pesquisa fazem a integração entre elas com ações em sequência 
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            (x) manual
+        </th>
+        <th colspan="2">
+            (x) automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração (x)
+        </th>
+        <th>
+            Sistema ( )
+        </th>
+        <th>
+            Unidade ( )
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca (x)
+        </th>
+        <th colspan="2">
+            Caixa preta (x)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Laila Bernardon
+        </th>
+    </tr>
+</table>
+<br/>
+
+
 ### 3.4 - Tempo de Resposta
 
 Para teste de funcionalidade.
@@ -593,7 +790,68 @@ Se possível usar teste automatizado.
 </table>
 <br/>
 
-### 3.5 - Feedbacks
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            Verficiar se o tempo de resposta de Pesquisa são aceitáveis
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            ( ) manual
+        </th>
+        <th colspan="2">
+            ( ) automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração ( )
+        </th>
+        <th>
+            Sistema ( )
+        </th>
+        <th>
+            Unidade ( )
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca ( )
+        </th>
+        <th colspan="2">
+            Caixa preta ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Laila Bernardon
+        </th>
+    </tr>
+</table>
+<br/>
+
+
+### 3.5 - Usabilidade
 
 Aqui deve-se verificar se os feedbacks existentes no programa são disparados quando devem.
 Se possível usar teste automatizado.
@@ -719,6 +977,65 @@ Se possível usar teste automatizado.
 <br/>
 
 
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            Verificar se feedback de Pesquisa são disparados quando necessário e com clareza
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            ( ) manual
+        </th>
+        <th colspan="2">
+            ( ) automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração ( )
+        </th>
+        <th>
+            Sistema ( )
+        </th>
+        <th>
+            Unidade ( )
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca ( )
+        </th>
+        <th colspan="2">
+            Caixa preta ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Laila Bernardon
+        </th>
+    </tr>
+</table>
+<br/>
 
 
 ## 4 - Recursos
@@ -746,8 +1063,8 @@ Cucumber
 
 Tipo de teste      | Duração | data de início | data de término
 -------------------|---------|----------------|-----------------
-planejar teste     |    3h     | 20/05/2023     | 20/05/2023 
+planejar teste     |    3h     | 20/05/2023     | 19/05/2023 
 projetar teste     |    3h    | 20/05/2023     | 20/05/2023 
 implementar teste  |    3h     | 20/05/2023     | 20/05/2023
-executar teste     |    3h     | 21/05/2023     | 21/05/2023
-avaliar teste      |    3h     | 21/05/2023     | 21/05/2023
+executar teste     |    7h     | 21/05/2023     | 21/05/2023
+avaliar teste      |    5h     | 21/05/2023     | 21/05/2023

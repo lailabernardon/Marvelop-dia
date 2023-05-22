@@ -26,4 +26,4 @@ Screenshot_20230522-174912_Marvelopdia.jpg
 - Hardware Galaxy S10
 
 ## Additional context
-TC related: [Add any other context about the problem here.](https://github.com/lailabernardon/Marvelop-dia/blob/main/testCases/Pagamento/id%20UCN6%20-%20Campos%20obrigat%C3%B3rios.md)
+TC related: https://github.com/lailabernardon/Marvelop-dia/blob/main/testCases/Pagamento/id%20UCN6%20-%20Campos%20obrigat%C3%B3rios.md

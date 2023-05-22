@@ -31,6 +31,7 @@ Scenario: Successful payment with correct payment details
     
   Examples:
   | Card Number |	Cardholder Name	| Expiry Date	 | Security Code 
+  
   | 1234567890123456	| Laila Beernardon	| 12/2024	| 123	| 
   
 

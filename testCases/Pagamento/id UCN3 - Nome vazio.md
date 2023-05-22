@@ -28,8 +28,11 @@ Scenario: Empty "Cardholder Name"
     
   Examples:
   | Card Number |	Cardholder | Expiry Date	 | Security Code 
+  
   | 1234567890123456|         	| 12/2024	| 123	| 
+  
   | 9876543210987654	|         	| 12/2024	| 123	| 
+  
   | ABCDEFGHIJKLMNOP	|         	| 12/2024	| 123	| 
   
     

@@ -23,9 +23,13 @@ Scenario: Insufficient funds in the account
     
   Examples:
   | Card Number |	Cardholder | Expiry Date	 | Security Code 
+  
   | 1234567890123456|  Laila Bernardon       	| 12/2024	| 111	| 
+  
   | 1234567890123456|  Laila Bernardon       	| 10/2025	| 123	| 
+  
   | ABCDEFGHIJKLMNOP	|  Laila Bernardon      | 10/2025    	  | 991	| 
+  
   | ABCDEFGHIJKLMNOP	|  Laila Bernardon  | 10/2020 | 991	| 
     
 

@@ -5,9 +5,12 @@ Para a criação de novos cenários de teste para a aplicação Marvelopédia, f
 
    Pesquisa   |                  US1 |    US2  | US3 | US4 
 --------------|----------------------|---------|-----|-----
-Usuário está logado? |  Sim  | Não    | Não  | Não | Não
-Itens estão presentes no carrinho de compras?              |  Não   | Sim    | Não  | Não | Não
-Remover item do carrinho de compraS?            |  Não   |  Não    | Sim  | Não | Não
-Atualizar quantidade de um item no carrinho de compras? |  Não   |  Não    | Não  | Sim | Não
-Calcular preço total no carrinho de compras?      |  Não   |  Não    | Não  | Não | Sim
-Saída                        |  Resultado da pesquisa é mostrado   | Mensagem de erro    | Mensagem de erro   |Mensagem de erro  |Mensagem de erro  
+Usuário logado, seleciona produto |  Sim  | Sim    | Sim  | Sim 
+Usuário logado, adiciona item    |  Sim   |  Não    | Não  | Não 
+Usuário logado, remove item   |  Não   |  Sim   | Não  | Não 
+Usuário logado, atualiza quantidade do item |  Não   |  Não    | Sim  | Não 
+Usuário logado, visualiza preço total      |  Não   |  Não    | Não  | Sim 
+Usuário logado, adiciona item, remove item |  Não   |  Sim    | Não  | Sim 
+Saída                        |  Item é adicionado ao carrinho de compras   | Item é removido do carrinho de compras    | A quantidade do item no carrinho de compras é atualizada   |O preço total exibido é a soma dos preços de todos os itens
+
+

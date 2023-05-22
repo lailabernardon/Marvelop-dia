@@ -17,7 +17,7 @@ error messages indicating that the fields are required
 P0
 
 ## Screenshots/Video
-Screenshot_20230522-174912_Marvelopdia.jpg
+https://github.com/lailabernardon/Marvelop-dia/blob/main/reports/P0/Screenshot_20230522-174912_Marvelopdia.jpg
 
 
 ## Mobile/Tablet
@@ -26,4 +26,4 @@ Screenshot_20230522-174912_Marvelopdia.jpg
 - Hardware Galaxy S10
 
 ## Additional context
-Add any other context about the problem here.
+TC related: https://github.com/lailabernardon/Marvelop-dia/blob/main/testCases/Pagamento/id%20UCN6%20-%20Campos%20obrigat%C3%B3rios.md

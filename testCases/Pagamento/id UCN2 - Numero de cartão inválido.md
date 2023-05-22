@@ -28,9 +28,13 @@ Scenario: Invalid "Card Number" entered
     
   Examples:
   | Card Number |	Cardholder Name	| Expiry Date	 | Security Code 
+  
   | 1234	| Laila Beernardon	| 12/2024	| 123	| 
+  
   | 987654321	| Laila Beernardon	| 12/2024	| 123	| 
+  
   | ABCDEFGHIJKLMNOP	| Laila Beernardon	| 12/2024	| 123	| 
+  
   
     
 
